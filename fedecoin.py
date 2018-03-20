@@ -57,6 +57,7 @@ class BlockChain(object):
 		
 		newBlock = Block(datetime.datetime.now(), self.pendingTransactions)
 		newBlock.previousHash = self.getLatestBlock().hash
+		# you can check if transactions are valid here
 		print("mining block...")
 		newBlock.mineBlock(self.difficulty)
 		print("block mined:", newBlock.hash)
