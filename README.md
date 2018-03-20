@@ -4,7 +4,7 @@ A blockchain is a chain of blocks linked each other in such a way that the infor
 
 In this blockchain each block is mined using proof of work algorithm ([PoW](https://en.wikipedia.org/wiki/Proof-of-work_system)).
 This algorithm consists in finding a hash of all the information saved in the block that meets a condition.
-For this purpose, each block has a variable data, called nonce, which must be varied until the desired hash is found.
+For this purpose, each block has a variable data, called *nonce*, which must be varied until the desired hash is found.
 In [bitcoin](https://bitcoin.org/en/), for example, the desired hash implies that its first X digits have to be zeros.
 The amount X regulates the difficulty of mining (greater X, greater the difficulty).
 In this blockchain X is a property of the blockchain, and can be set in its constructor, but in bitcoin and the majority of the coins this depends on the capacity of mining of the nodes that support the network.
