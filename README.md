@@ -1,6 +1,6 @@
 # Readme
 
-## Fedecoin
+## Fedecoin (FDC)
 A simple blockchain made on python.
 A blockchain is a chain of blocks linked each other in such a way that the information they keep is hard to change (and more and more difficult while more blocks are added to the blockchain).
 
