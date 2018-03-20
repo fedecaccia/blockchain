@@ -20,9 +20,6 @@ python3 fedecoin.py
 
 ## References
 This code is based on a JavaScript code developed by Savjee and shown in this videos:
-
 * [create a blockchain](https://www.youtube.com/watch?v=zVqczFZr124&t=0s&index=10&list=LLKE6wJ3t9BhLjx_P7Z0B3gA)
-
 * [proof of work](https://www.youtube.com/watch?v=HneatE69814)
-
 * [mining rewards & transactions](https://www.youtube.com/watch?v=fRV6cGXVQ4I)
