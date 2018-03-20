@@ -10,13 +10,13 @@ The amount X regulates the difficulty of mining (greater X, greater the difficul
 In this blockchain X is a property of the blockchain, and can be set in its constructor, but in bitcoin and the majority of the coins this depends on the capacity of mining of the nodes that support the network.
 
 ## Dependencies
-Using [hashlib](https://docs.python.org/2/library/hashlib.html)
+Using [hashlib](https://docs.python.org/2/library/hashlib.html).
 
 ## How to use
 To run just open a terminal and type:
-'''bash
+```[bash]
 python3 fedecoin.py
-'''
+```
 
 ## References
 This code is based on a JavaScript code developed by Savjee and shown in this videos:
