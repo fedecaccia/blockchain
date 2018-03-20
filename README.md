@@ -18,10 +18,10 @@ To run just open a terminal and type:
 python3 fedecoin.py
 ```
 You can create transactions using *createTransaction* method.
-This method needs as arguments the sending adress (*fromAdress*), receiving adress (*toAdress*) and the amount (*amount*) of fedecoins that is sent.
-After creating the transaction use the *minePendingTransactions* method to add it to the blockchain.
+This method needs as arguments the sending adress `fromAdress`, receiving adress `toAdress` and the amount `amount` of fedecoins that is sent.
+After creating the transaction use the `minePendingTransactions` method to add it to the blockchain.
 As argument this method needs the adress that belong to the miner of this block, so the adress that is going to be rewarded in future.
-You can also check each adress balance using *showAdressBalance* method with the adress name you want ot check as an argument.
+You can also check each adress balance using `showAdressBalance` method with the adress name you want ot check as an argument.
 
 ## References
 This code is based on a JavaScript code developed by Savjee and shown in this videos:
